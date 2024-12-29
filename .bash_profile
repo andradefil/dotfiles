@@ -4,7 +4,7 @@ export PATH="/usr/local/sbin:$PATH"
 export PATH="/opt/homebrew/bin:$PATH"
 
 # Modify Bash Prompt
-export PS1="\033[38;5;34m\$ \033[0m" #00af00
+export PS1="\[\033[38;5;34m\]\$ \[\033[0m\]"
 export CLICOLOR=1
 export LSCOLORS=ExFxBxDxCxegedabagacad
 export EDITOR=/usr/local/sbin/emacs
